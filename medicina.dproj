@@ -58,6 +58,7 @@
         <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
         <SanitizedProjectName>medicina</SanitizedProjectName>
+        <Custom_Styles>&quot;Windows11 Polar Dark|VCLSTYLE|$(BDSCOMMONDIR)\Styles\Windows11_Polar_Dark.vsf&quot;</Custom_Styles>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_UsePackage>SampleListViewMultiDetailAppearancePackage;vclwinx;DataSnapServer;dacvcl280;FMXTeeLanguage928;fmx;emshosting;DbxCommonDriver;vclie;bindengine;VCLRESTComponents;FireDACCommonODBC;DBXMSSQLDriver;IndyIPCommon;emsclient;FireDACCommonDriver;TeeUI928;IndyProtocols;appanalytics;vclx;Skia.Package.RTL;frxe28;dbxcds;vcledge;dac280;IndyIPClient;TeeGL928;bindcompvclwinx;TeeTree2D28Tee9;TMSCryptoPkgDEDXE14;TMSCloudPkgDEDXE14;unidac280;emsedge;bindcompfmx;DBXFirebirdDriver;StyleControls_d11Alexandria;inetdb;FMXfrxe28;lresizevcl;FireDACSqliteDriver;DbxClientDriver;FmxTeeUI928;FireDACASADriver;soapmidas;ResizeKitPKD28;vclactnband;PackTCPServerClient;fmxFireDAC;dbexpress;FMXfrx28;Python;FireDACInfxDriver;TeeImport928;FMXTree28;DBXMySQLDriver;TeeLanguage928;dacfmx280;unidacvcl280;DataSnapCommon;inet;VclSmp;PythonVcl;fmxase;vcltouch;frx28;GLibWMI;DBXOdbcDriver;PentireFMX;dbrtl;ALOTTOFMX;FireDACOracleDriver;FireDACDBXDriver;fmxdae;Skia.Package.FMX;FireDACMSAccDriver;CustomIPTransport;FireDACMSSQLDriver;DataSnapIndy10ServerTransport;TeePro928;DataSnapConnectors;JVEsoft;DBXInterBaseDriver;vcldsnap;frxDB28;FireDACMongoDBDriver;IndySystem;FireDACTDataDriver;Skia.Package.VCL;FMXTeeDB928;ALHacking;vcldb;TMSCloudPkgDXE14;uSynEdit_R2024;vclFireDAC;vquery280;FMXAppWizard;bindcomp;DataSnapServerMidas;FireDACCommon;unidacfmx280;DragDropD11;FireDACODBCDriver;emsserverresource;IndyCore;RESTBackendComponents;FMXTeePro928;bindcompdbx;TMSCryptoPkgDXE14;rtl;FireDACMySQLDriver;FMXfs28;IcsFmxD110Run;FireDACADSDriver;MobilePermissions;alotto;RESTComponents;IcsVclD110Run;DBXSqliteDriver;vcl;adortl;dsnapxml;dsnapcon;DataSnapClient;DataSnapProviderClient;IndyIPServer;FMXAupdate;sgcWebSocketsD11;DBXSybaseASEDriver;FMXTee928;TeeImage928;TeeDB928;DBXDb2Driver;IcsCommonD110Run;vclimg;DataSnapFireDAC;emsclientfiredac;FireDACPgDriver;FireDAC;FireDACDSDriver;inetdbxpress;xmlrtl;tethering;FMXfrxDB28;FMXfsDB28;TeeWorld928;bindcompvcl;dsnap;DBXSybaseASADriver;CloudService;DBXOracleDriver;FireDACDb2Driver;DBXInformixDriver;DataSnapNativeClient;fmxobj;bindcompvclsmp;PythonFmx;Tee928;DatasnapConnectorsFreePascal;soaprtl;FMXTeeImport928;soapserver;FireDACIBDriver;$(DCC_UsePackage)</DCC_UsePackage>
@@ -97,7 +98,8 @@
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_Locale>1040</VerInfo_Locale>
+        <Icon_MainIcon>medicina_Icon.ico</Icon_MainIcon>
         <AppExecutionLevel>requireAdministrator</AppExecutionLevel>
     </PropertyGroup>
     <ItemGroup>

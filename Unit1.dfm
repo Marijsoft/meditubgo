@@ -3,7 +3,7 @@ object Form2: TForm2
   Top = 0
   BorderStyle = bsDialog
   Caption = 'Patch iTubeGo 5.1 Win'
-  ClientHeight = 135
+  ClientHeight = 144
   ClientWidth = 304
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,7 +17,7 @@ object Form2: TForm2
   object Label1: TLabel
     AlignWithMargins = True
     Left = 4
-    Top = 111
+    Top = 120
     Width = 296
     Height = 20
     Margins.Left = 4
@@ -34,6 +34,8 @@ object Form2: TForm2
     Font.Name = 'Segoe UI'
     Font.Style = [fsBold]
     ParentFont = False
+    WordWrap = True
+    ExplicitTop = 115
     ExplicitWidth = 139
   end
   object Button1: TButton
@@ -53,9 +55,9 @@ object Form2: TForm2
   end
   object RadioGroup1: TRadioGroup
     Left = 9
-    Top = 9
+    Top = 12
     Width = 142
-    Height = 72
+    Height = 57
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
